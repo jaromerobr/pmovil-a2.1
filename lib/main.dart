@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart'; // ✅ Import CORRECTO
+import 'home_page.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: Colors.grey[50],
       ),
-      home: const HomePage(), // ✅ Usa tu HomePage
+      home: const HomePage(), 
     );
   }
 }
